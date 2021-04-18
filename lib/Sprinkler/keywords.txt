@@ -1,0 +1,29 @@
+###########################################
+# Syntax Coloring Map For Ballvalve
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+
+sprinklersystem	KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+
+addZone KEYWORD2
+removeZone	KEYWORD2
+setDescription	KEYWORD2
+zoneInfo	KEYWORD2
+addValve	KEYWORD2
+valveMaxTravelTime KEYWORD2
+addMeter KEYWORD2
+openZone KEYWORD2
+valvePosition KEYWORD2
+setValve KEYWORD2
+valveLastDuration KEYWORD2
+closeZone KEYWORD2
+valvePosition KEYWORD2
+meterMoved KEYWORD2
+readMeter KEYWORD2
