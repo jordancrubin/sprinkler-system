@@ -188,8 +188,8 @@ void SPRINKLERSYSTEM::setDescription(const char* name, const char* description){
 // ----------------------------------------------------------------------------]
 
 // FUNCTION - [setValve] - [Returns the current version from the Object--------]
-char* SPRINKLERSYSTEM::setValve(char* value){
- char* result = thisvalve->setValvePosition(value);
+const char* SPRINKLERSYSTEM::setValve(char* value){
+ const char* result = thisvalve->setValvePosition(value);
  return result;
 }
 // ----------------------------------------------------------------------------]
@@ -213,7 +213,7 @@ void SPRINKLERSYSTEM::valveMaxTravelTime(int delay){
 // ----------------------------------------------------------------------------]
 
 // FUNCTION - [valvePosition] - [Returns the position of the valve-------------]
-char* SPRINKLERSYSTEM::valvePosition(void){
+const char* SPRINKLERSYSTEM::valvePosition(void){
   return thisvalve->getValvePosition();
 }
 // ----------------------------------------------------------------------------]

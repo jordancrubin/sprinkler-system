@@ -42,11 +42,11 @@ class Zone {
      double readMeter(void);
     void removeZone(const char*);
     void setDescription(const char*, const char*);
-    char* setValve(char*);
+    const char* setValve(char*);
     int valveLastDuration(char*);
     int valveMaxTravelTime(void);
     void valveMaxTravelTime(int);
-    char* valvePosition(void);
+    const char* valvePosition(void);
     void zoneInfo();
     void zoneInfo(const char*);
 
