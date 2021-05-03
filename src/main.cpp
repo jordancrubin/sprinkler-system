@@ -1,4 +1,5 @@
 /*
+  Change this file to main.cpp to run example in platform.io
   main.cpp - The application that runs the automated sprinkler system as 
   part of the Irrigation Automation Project for ESP32 Using both the 
   5 wirevalve project and the watermeter projects in the design.  More at
